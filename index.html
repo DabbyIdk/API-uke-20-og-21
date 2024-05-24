@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/styleMain.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" 
+    integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" 
+    crossorigin=""/>
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" 
+    integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" 
+    crossorigin=""></script>
+
+    <title>My API - main</title>
+</head>
+<body>
+    <header class="header_main">
+        <div id="menu_header">
+            <ul>
+                <li>American Breweries</li>
+            </ul>
+        </div>
+        <div id="menu_bar">
+            <input id="stateInput" type="text" placeholder="Enter a state">
+            <button id="searchBtn"><p><i class="fa-solid fa-magnifying-glass"></i></p></button>
+        </div>
+        <div id="logo_main">
+            <p><i class="fa-solid fa-plate-wheat"></i></p>
+        </div>
+    </header>
+    <section class="sidebar">
+        <div id="sidebar_options">
+            <button id="btn">Recently viewed</button>
+            <ul id="myList">
+                <li>No recently viewed</li>
+            </ul>
+        </div>
+    </section>
+    <section class="main_main">
+        <div id="info">
+            <h1>My API</h1>
+            <p>Welcome to our brewery finder! Here, using the Open Brewery API, you can search up any state in the USA and view all the breweries that are located in that state.</p>
+        </div>
+        <div id="map1"></div>
+    </section>
+    <section class="space">
+    </section>
+    <footer>
+        <div id="info1">
+            <ul>
+                <li>info</li>
+                <li>adresse</li>
+                <li>kontakt</li>
+                <li>logo</li>
+            </ul>
+        </div>
+        <div id="footer">
+            <p>footer</p>
+        </div>
+        <div id="info2">
+            <ul>
+                <li>mer info her</li>
+                <li>logoer</li>
+                <li>lenker til eksterne ressurser</li>
+                <li>copyright</li>
+            </ul>
+        </div>
+    </footer>
+
+    <script src="code/menu.js"></script>
+</body>
+</html>
